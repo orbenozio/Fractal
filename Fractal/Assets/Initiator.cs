@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Initiator : MonoBehaviour
 {
+	[SerializeField] private bool _useCLC;
 	[SerializeField] private Fractal _baseFractal;
+	[SerializeField] private Fractal_CLC _baseFractalCLC;
 
-	private Fractal _base;
+	private GameObject _base;
 	
 	private void Awake()
 	{
@@ -15,7 +17,14 @@ public class Initiator : MonoBehaviour
 
 	private void Initialize()
 	{
-		_base = Instantiate(_baseFractal);
+		if (_useCLC)
+		{
+			_base = Instantiate(_baseFractalCLC).gameObject;	
+		}
+		else
+		{
+			_base = Instantiate(_baseFractal).gameObject;			
+		}
 		_base.name = "Fractal";
 	}
 
@@ -23,7 +32,7 @@ public class Initiator : MonoBehaviour
 	{
 		if (GUILayout.Button("RESET", GUILayout.Width(100), GUILayout.Height(100)))
 		{
-			Destroy(_base.gameObject);
+			Destroy(_base);
 			Initialize();
 		}
 	}
