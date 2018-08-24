@@ -11,18 +11,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Fractal.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fractal.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Fractal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="175">
+              <caret line="48" column="74" selection-start-line="48" selection-start-column="74" selection-end-line="48" selection-end-column="74" />
               <folding>
-                <marker date="1535122317254" expanded="false" signature="6:78" ph="..." />
-                <marker date="1535122317254" expanded="true" signature="116:1506" ph="{...}" />
-                <marker date="1535122317254" expanded="true" signature="335:534" ph="{...}" />
-                <marker date="1535122317254" expanded="true" signature="483:531" ph="{...}" />
-                <marker date="1535122317254" expanded="true" signature="619:983" ph="{...}" />
-                <marker date="1535122317254" expanded="true" signature="1022:1504" ph="{...}" />
+                <marker date="1535128028103" expanded="false" signature="6:78" ph="..." />
+                <marker date="1535128028103" expanded="true" signature="116:3051" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="574:659" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="714:874" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="900:1368" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="1069:1103" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="1317:1365" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="1395:1462" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="1501:2154" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="1593:2005" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="2213:2749" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="2788:3049" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="2843:3046" ph="{...}" />
+                <marker date="1535128028103" expanded="true" signature="2888:3042" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Initiator.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Initiator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+              <folding>
+                <marker date="1535128175386" expanded="false" signature="6:78" ph="..." />
+                <marker date="1535128175386" expanded="true" signature="118:500" ph="{...}" />
+                <marker date="1535128175386" expanded="true" signature="217:239" ph="{...}" />
+                <marker date="1535128175386" expanded="true" signature="267:336" ph="{...}" />
+                <marker date="1535128175386" expanded="true" signature="359:498" ph="{...}" />
+                <marker date="1535128175386" expanded="true" signature="440:495" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -31,12 +56,14 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Initiator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fractal.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Fractal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Initiator.cs" />
       </list>
     </option>
   </component>
@@ -98,12 +125,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535120629736</updated>
-      <workItem from="1535120644155" duration="1673000" />
+      <workItem from="1535120644155" duration="6042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1673000" />
+    <option name="totallyTimeSpent" value="6042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -129,7 +156,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -142,18 +169,61 @@
     </layout>
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Initiator.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Initiator.cs" initialLine="25">
+            <startOffsets>
+              <startOffset value="448" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="474" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Fractal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="175">
+          <caret line="48" column="74" selection-start-line="48" selection-start-column="74" selection-end-line="48" selection-end-column="74" />
           <folding>
-            <marker date="1535122317254" expanded="false" signature="6:78" ph="..." />
-            <marker date="1535122317254" expanded="true" signature="116:1506" ph="{...}" />
-            <marker date="1535122317254" expanded="true" signature="335:534" ph="{...}" />
-            <marker date="1535122317254" expanded="true" signature="483:531" ph="{...}" />
-            <marker date="1535122317254" expanded="true" signature="619:983" ph="{...}" />
-            <marker date="1535122317254" expanded="true" signature="1022:1504" ph="{...}" />
+            <marker date="1535128028103" expanded="false" signature="6:78" ph="..." />
+            <marker date="1535128028103" expanded="true" signature="116:3051" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="574:659" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="714:874" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="900:1368" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="1069:1103" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="1317:1365" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="1395:1462" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="1501:2154" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="1593:2005" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="2213:2749" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="2788:3049" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="2843:3046" ph="{...}" />
+            <marker date="1535128028103" expanded="true" signature="2888:3042" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Initiator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+          <folding>
+            <marker date="1535128175386" expanded="false" signature="6:78" ph="..." />
+            <marker date="1535128175386" expanded="true" signature="118:500" ph="{...}" />
+            <marker date="1535128175386" expanded="true" signature="217:239" ph="{...}" />
+            <marker date="1535128175386" expanded="true" signature="267:336" ph="{...}" />
+            <marker date="1535128175386" expanded="true" signature="359:498" ph="{...}" />
+            <marker date="1535128175386" expanded="true" signature="440:495" ph="{...}" />
           </folding>
         </state>
       </provider>
